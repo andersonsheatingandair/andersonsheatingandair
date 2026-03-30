@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anderson's Heating and Air | HVAC Service in Savannah, GA</title>
+  <meta name="description" content="Anderson's Heating and Air provides expert AC repair, heating repair, HVAC installation, and maintenance throughout Savannah, GA and surrounding areas including The Landings, Isle of Hope, Wilmington Island, and Ardsley Park.">
+  <meta name="keywords" content="HVAC Savannah GA, AC repair Savannah, heating and air Savannah, air conditioning repair, furnace repair Savannah, heat pump service, HVAC installation Savannah, The Landings HVAC, Isle of Hope AC repair, Wilmington Island heating and air, Ardsley Park HVAC, Pooler AC repair, Richmond Hill HVAC">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Anderson's Heating and Air | Savannah, GA HVAC">
+  <meta property="og:description" content="Local HVAC service you can trust. Serving Savannah and surrounding areas.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://www.andersonsheatingandair.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "name": "Anderson's Heating and Air",
+    "url": "https://www.andersonsheatingandair.com",
+    "email": "andersonsheatingandair@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Savannah",
+      "addressRegion": "GA",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Savannah", "Pooler", "Richmond Hill", "Tybee Island", "Thunderbolt", "Isle of Hope", "Wilmington Island", "Ardsley Park", "The Landings", "Skidaway Island"],
+    "sameAs": []
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Barlow', sans-serif;
+      color: #1a1a2e;
+      background: #fff;
+      overflow-x: hidden;
+    }
+
+    /* ====== HEADER ====== */
+    header {
+      background: #003087;
+      border-bottom: 4px solid #CC0000;
+      padding: 0 5%;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+      text-decoration: none;
+    }
+
+    .logo span {
+      display: block;
+      font-size: 10px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 28px;
+      letter-spacing: 0.04em;
+      transition: color 0.15s;
+    }
+
+    nav a:hover { color: #CC0000; }
+
+    /* ====== HERO ====== */
+    .hero {
+      background: linear-gradient(135deg, #001f5e 0%, #003087 60%, #004aad 100%);
+      color: #fff;
+      padding: 90px 5% 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: #CC0000;
+    }
+
+    .hero-inner {
+      max-width: 680px;
+    }
+
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      letter-spacing: 0.02em;
+    }
+
+    .hero h1 span { color: #CC0000; }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.82);
+      margin-bottom: 32px;
+      max-width: 540px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #CC0000;
+      color: #003087;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px 32px;
+      border-radius: 6px;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: background 0.15s, transform 0.1s;
+    }
+
+    .btn:hover { background: #aa0000; transform: translateY(-1px); }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: 2px solid rgba(255,255,255,0.4);
+      margin-left: 12px;
+    }
+
+    .btn-outline:hover { background: rgba(255,255,255,0.1); transform: translateY(-1px); }
+
+    /* ====== TRUST BAR ====== */
+    .trust-bar {
+      background: #f8fafc;
+      border-bottom: 1px solid #e5e9f0;
+      padding: 18px 5%;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #003087;
+    }
+
+    .trust-item::before {
+      content: '✓';
+      background: #CC0000;
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ====== SECTIONS ====== */
+    section {
+      padding: 72px 5%;
+    }
+
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #CC0000;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      color: #003087;
+      margin-bottom: 16px;
+      line-height: 1.15;
+    }
+
+    .section-sub {
+      font-size: 1rem;
+      color: #556;
+      max-width: 580px;
+      line-height: 1.7;
+      margin-bottom: 48px;
+    }
+
+    /* ====== SERVICES ====== */
+    #services { background: #fff; }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .service-card {
+      background: #f8fafc;
+      border-radius: 10px;
+      padding: 28px;
+      border-top: 4px solid #003087;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(13,63,117,0.12);
+    }
+
+    .service-icon {
+      font-size: 2rem;
+      margin-bottom: 14px;
+    }
+
+    .service-card h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #003087;
+      margin-bottom: 10px;
+      letter-spacing: 0.02em;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #556;
+      line-height: 1.65;
+    }
+
+    /* ====== ABOUT ====== */
+    #about { background: #003087; color: #fff; }
+
+    #about .section-title { color: #fff; }
+    #about .section-sub { color: rgba(255,255,255,0.75); max-width: 640px; }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-points {
+      list-style: none;
+      padding: 0;
+    }
+
+    .about-points li {
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+      font-size: 15px;
+      color: rgba(255,255,255,0.85);
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .about-points li::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: #CC0000;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 7px;
+    }
+
+    .about-stat-block {
+      background: rgba(255,255,255,0.06);
+      border-radius: 10px;
+      padding: 36px;
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .stat {
+      margin-bottom: 28px;
+    }
+
+    .stat-number {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 3rem;
+      font-weight: 800;
+      color: #CC0000;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: rgba(255,255,255,0.65);
+      margin-top: 4px;
+    }
+
+    /* ====== AREAS ====== */
+    #areas { background: #f8fafc; }
+
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 14px;
+    }
+
+    .area-tag {
+      background: #fff;
+      border: 1px solid #dde3ed;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #003087;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .area-tag.featured {
+      border-color: #CC0000;
+      background: #fff0f0;
+      color: #8a0000;
+    }
+
+    .area-tag::before {
+      content: '📍';
+      font-size: 13px;
+    }
+
+    /* ====== CTA ====== */
+    #cta {
+      background: linear-gradient(135deg, #001f5e, #003087);
+      color: #fff;
+      text-align: center;
+      border-top: 4px solid #CC0000;
+    }
+
+    #cta .section-title { color: #fff; }
+    #cta .section-sub { color: rgba(255,255,255,0.75); margin: 0 auto 32px; }
+
+    /* ====== FOOTER ====== */
+    footer {
+      background: #00163a;
+      color: rgba(255,255,255,0.5);
+      padding: 28px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 13px;
+    }
+
+    footer a {
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+    }
+
+    footer a:hover { color: #CC0000; }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 768px) {
+      nav { display: none; }
+      .about-grid { grid-template-columns: 1fr; }
+      .btn-outline { display: none; }
+      .hero { padding: 60px 5%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="/" class="logo">
+    Anderson's Heating and Air
+    <span>Savannah, GA</span>
+  </a>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#areas">Service Area</a>
+    <a href="mailto:andersonsheatingandair@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Savannah's <span>Heating & Air</span> Experts You Can Trust</h1>
+    <p>Family-owned HVAC service serving Savannah and the surrounding area. From AC repairs to full system installations, we treat every home like it's our own.</p>
+    <a href="mailto:andersonsheatingandair@gmail.com" class="btn">Request Service</a>
+    <a href="#services" class="btn btn-outline">Our Services</a>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">Licensed & Insured</div>
+  <div class="trust-item">EPA Certified</div>
+  <div class="trust-item">Same-Day Service Available</div>
+  <div class="trust-item">All Major Brands Serviced</div>
+  <div class="trust-item">Upfront Pricing</div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-label">What We Do</div>
+  <h2 class="section-title">HVAC Services in Savannah, GA</h2>
+  <p class="section-sub">Whether your AC goes out in the middle of summer or your heat stops working on a cold night, Anderson's Heating and Air is ready to help. We service all makes and models throughout the Savannah area.</p>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">❄️</div>
+      <h3>AC Repair</h3>
+      <p>Fast, reliable air conditioning repair for homes throughout Savannah and surrounding communities. We diagnose and fix the problem right the first time.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🔥</div>
+      <h3>Heating Repair</h3>
+      <p>Furnace or heat pump not keeping up? We service all heating systems and get your home comfortable again quickly.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏠</div>
+      <h3>AC Installation</h3>
+      <p>New air conditioning system installation done right. We help you choose the right system for your home and handle everything from start to finish.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">⚙️</div>
+      <h3>Heating Installation</h3>
+      <p>Whether you need a new furnace, heat pump, or air handler, we install quality equipment built to last in the Savannah climate.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🔄</div>
+      <h3>Heat Pump Service</h3>
+      <p>Heat pump repair, maintenance, and installation. Heat pumps are one of the most efficient options for heating and cooling in coastal Georgia.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">📋</div>
+      <h3>Maintenance & Tune-Ups</h3>
+      <p>Regular maintenance keeps your system running efficiently, extends its life, and catches small problems before they become expensive ones.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">💨</div>
+      <h3>Indoor Air Quality</h3>
+      <p>From air purifiers to UV systems and dehumidifiers, we help improve the air inside your home for a healthier, more comfortable environment.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🌡️</div>
+      <h3>Thermostat & Controls</h3>
+      <p>Smart thermostat installation and troubleshooting. Take control of your comfort and lower your energy bills with modern thermostat technology.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">Who We Are</div>
+  <h2 class="section-title">Local. Honest. Dependable.</h2>
+  <p class="section-sub">Anderson's Heating and Air is a small, owner-operated HVAC company serving the Savannah area. We built this business on doing good work and treating people right — no upselling, no shortcuts, just honest service from a technician who takes pride in the job.</p>
+
+  <div class="about-grid">
+    <div>
+      <ul class="about-points">
+        <li>Every job performed by a trained, EPA-certified technician</li>
+        <li>We explain exactly what we found and what we recommend — no pressure</li>
+        <li>Upfront pricing before any work begins</li>
+        <li>We treat your home with respect — clean, professional, and on time</li>
+        <li>All makes and models serviced, including high-efficiency and variable speed systems</li>
+        <li>Serving Savannah's finest neighborhoods with the same care we'd give our own homes</li>
+      </ul>
+    </div>
+    <div class="about-stat-block">
+      <div class="stat">
+        <div class="stat-number">5★</div>
+        <div class="stat-label">Google Rating</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Owner-Operated</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">All</div>
+        <div class="stat-label">Major Brands Serviced</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section id="areas">
+  <div class="section-label">Where We Work</div>
+  <h2 class="section-title">Proudly Serving the Greater Savannah Area</h2>
+  <p class="section-sub">Anderson's Heating and Air provides HVAC service throughout Savannah and the surrounding communities. From historic neighborhoods to coastal communities, we're your local heating and air experts.</p>
+
+  <div class="areas-grid">
+    <div class="area-tag featured">The Landings</div>
+    <div class="area-tag featured">Isle of Hope</div>
+    <div class="area-tag featured">Wilmington Island</div>
+    <div class="area-tag featured">Ardsley Park</div>
+    <div class="area-tag">Savannah</div>
+    <div class="area-tag">Pooler</div>
+    <div class="area-tag">Richmond Hill</div>
+    <div class="area-tag">Skidaway Island</div>
+    <div class="area-tag">Thunderbolt</div>
+    <div class="area-tag">Tybee Island</div>
+    <div class="area-tag">Garden City</div>
+    <div class="area-tag">Rincon</div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="section-label">Get In Touch</div>
+  <h2 class="section-title">Ready to Schedule Service?</h2>
+  <p class="section-sub">Reach out and we'll get back to you promptly. We serve the greater Savannah area and are ready to help with any heating or air conditioning need.</p>
+  <a href="mailto:andersonsheatingandair@gmail.com" class="btn">Email Us Today</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>&copy; 2026 Anderson's Heating and Air &mdash; Savannah, GA</div>
+  <div>
+    <a href="mailto:andersonsheatingandair@gmail.com">andersonsheatingandair@gmail.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
